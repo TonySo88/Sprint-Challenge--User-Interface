@@ -27,11 +27,22 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
-    
-
+}
+header{
+    margin-bottom: 20px;
+}
+.about-image{
+    width:100%
+}
 .links{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
+    align-items:flex-end;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration:none;
+    color:black;
 }
 body {
 	line-height: 1;
@@ -59,6 +70,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    width: 74.5%;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -81,6 +94,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -102,43 +116,60 @@ p {
 
 .middle-content .boxes {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 10px;
+    flex-wrap:wrap;
+    text-align:center;
+    vertical-align: middle;
+    line-height:90px;
+}
+
+.boxes div {
+    width:100px;
+    height:100px;
+    margin: 20px;
+
 }
 
 .box1 {
     background-color:teal;
+    color: white;
 }
 .box2 {
     background-color:gold;
+    color: white;
 }
 .box3 {
         background-color:cadetblue;
+        color: white;
 }
 .box4 {
         background-color:coral;
+        color: white;
 }
 .box5 {
         background-color:crimson;
+        color: white;
 }
 .box6 {
         background-color:forestgreen;
+        color: white;
 }
 .box7 {
         background-color:darkorchid;
+        color: white;
 }
 .box8 {
         background-color:hotpink;
+        color: white;
 }
 .box9 {
         background-color:indigo;
+        color: white;
 }
 .box10 {
         background-color:dodgerblue;
-}
-
-.boxes{
-    flex-wrap:wrap;
+        color: white;
 }
 
 .middle-content .boxes .box {
@@ -195,4 +226,50 @@ section1{
 section2{
     display:flex;
     justify-content: space-evenly;
+}
+.links-about{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.about-class{
+    margin:20px
+}
+section1 div{
+    margin-top: 40px;
+    margin:20px;
+}
+section2 div{
+    margin-top: 20px;
+    margin:20px;
+}
+.bottomSection{
+    margin:20px;
+}
+footer{
+    margin-top: 40px;
+}
+hr {
+    border-top: 1px dashed;
+    margin-top: 20px;
+}
+h3{
+    margin-top:30px;
+}
+p   {margin-bottom:20px;
+}
+button{
+    padding: 15px 32px;
+    border-radius: 15px;
+    border-width: 2px;
+    width: 140px;
+    height: 40px;
+    font-size: 13px;
+    border-color: black;
+    margin: 0 auto;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
 }
